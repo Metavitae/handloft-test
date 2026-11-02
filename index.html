@@ -76,6 +76,8 @@ body.es-on .en{display:none!important}
 .calm b{font-family:var(--display)}
 
 
+ol.deal{margin:.4rem 0 0;padding-left:1.4rem}ol.deal li{margin:.35rem 0}
+.need{margin:.4rem 0 0;padding-left:1.2rem}.need li{margin:.3rem 0}
 /* steps */
 ol.steps{list-style:none;counter-reset:s;padding:0;margin:1rem 0 0;display:grid;gap:.8rem}
 ol.steps>li{counter-increment:s;display:grid;grid-template-columns:2.2rem 1fr;gap:.8rem;align-items:start}
@@ -113,8 +115,8 @@ footer{padding-block:2rem 3rem;border-top:1px solid var(--line);color:var(--mute
         <h1>Handloft</h1>
         <p class="sub en">Control your phone with your hand. No touching.</p>
         <p class="sub es">Controla tu teléfono con la mano. Sin tocarlo.</p>
-        <p class="facts en">Private test · version 0.76 · Android 11 or newer · about 10 minutes</p>
-        <p class="facts es">Prueba privada · versión 0.76 · Android 11 o más nuevo · unos 10 minutos</p>
+        <p class="facts en">Private test · version 0.76 · Android 11 or newer · about 5 minutes</p>
+        <p class="facts es">Prueba privada · versión 0.76 · Android 11 o más nuevo · unos 5 minutos</p>
       </div>
       <svg class="logo" viewBox="0 0 400 400" role="img" aria-label="Handloft logo, a compass star">
         <polygon class="cs-l" points="200,200 200,30 182.4,157.5"/><polygon class="cs-d" points="200,200 200,30 217.6,157.5"/>
@@ -134,91 +136,101 @@ footer{padding-block:2rem 3rem;border-top:1px solid var(--line);color:var(--mute
 <main class="wrap">
 
 <section style="border-top:0">
-  <h2 class="en">Thank you for being one of the first.</h2>
-  <h2 class="es">Gracias por ser de los primeros.</h2>
-  <p class="en">Handloft is made by Kithe. It is free, and you are one of the first people to try it.</p>
-  <p class="es">Handloft la hace Kithe. Es gratis y eres de las primeras personas en probarla.</p>
-  <div class="calm">
-    <p class="en" style="margin:0"><b>Your phone will show you some extra warnings.</b> That is because Handloft is not in the Play Store yet. Android shows them for every app that comes from outside it. This page walks you through each one, and what to tap. Take your time.</p>
-    <p class="es" style="margin:0"><b>Tu teléfono te mostrará algunos avisos extra.</b> Es porque Handloft todavía no está en la Play Store. Android los muestra con toda app que viene de fuera. Esta página te lleva por cada uno, y te dice qué tocar. Sin prisa.</p>
-  </div>
+  <h2 class="en">The deal</h2>
+  <h2 class="es">El trato</h2>
+  <ol class="deal en">
+    <li>Do <b>TODAY'S TEST</b> in the app. One test a day, a few minutes.</li>
+    <li>Do it on <b>15 different days</b>. They don't need to be in a row.</li>
+    <li>You have <b>45 days</b>, counted from the day you type your code.</li>
+    <li>Once, send your opinion: <b>TELL US WHAT YOU THINK</b> on the app's Home.</li>
+  </ol>
+  <ol class="deal es">
+    <li>Haz la <b>PRUEBA DE HOY</b> en la app. Una prueba al día, unos minutos.</li>
+    <li>Hazla en <b>15 días distintos</b>. No tienen que ser seguidos.</li>
+    <li>Tienes <b>45 días</b>, contados desde el día que escribes tu código.</li>
+    <li>Una vez, envía tu opinión: <b>DINOS QUÉ OPINAS</b> en el Inicio de la app.</li>
+  </ol>
+  <div class="calm en"><b>You get:</b> the finished Handloft, yours, free.<br><b>If 45 days pass first:</b> the test app stops working.<br>The app shows your count: <b>Test days</b> and <b>Days left</b>.</div>
+  <div class="calm es"><b>Recibes:</b> la Handloft terminada, tuya, gratis.<br><b>Si pasan los 45 días antes:</b> la app de prueba deja de funcionar.<br>La app te muestra la cuenta: <b>Días de prueba</b> y <b>Días restantes</b>.</div>
 </section>
 
 <section>
-  <h2 class="en">What this is</h2>
-  <h2 class="es">De qué se trata</h2>
-  <p class="en">Handloft lets you use your Android phone with your hand, without touching it. The app itself teaches you how, the first time you open it. This page only gets it installed.</p>
-  <div class="calm en"><b>Have these ready</b><ul style="margin:.5rem 0 0;padding-left:1.1rem"><li>An Android phone with Android 11 or newer. <b>Android only, no iPhone:</b> iPhones don’t let an app tap inside other apps, and they stop the camera as soon as you leave an app. Handloft needs both.</li><li>The Gmail account you gave to the person who invited you. It is the one that can open the download folder.</li><li>Your personal invite code. It arrives in the WhatsApp message from the person who invited you, and looks like <span class="kbd">HL-7KQ3P</span>. Keep that message handy.</li></ul></div>
-  <p class="es">Handloft te deja usar tu teléfono Android con la mano, sin tocarlo. La propia app te enseña cómo la primera vez que la abres. Esta página solo sirve para instalarla.</p>
-  <div class="calm es"><b>Ten a la mano</b><ul style="margin:.5rem 0 0;padding-left:1.1rem"><li>Un teléfono Android con Android 11 o más nuevo. <b>Solo Android, no iPhone:</b> el iPhone no deja que una app opere dentro de otras apps, y apaga la cámara en cuanto sales de una app. Handloft necesita las dos cosas.</li><li>La cuenta de Gmail que le diste a quien te invitó. Es la que puede abrir la carpeta de descarga.</li><li>Tu código personal de invitación. Llega en el mensaje de WhatsApp de quien te invitó y se ve así: <span class="kbd">HL-7KQ3P</span>. Ten ese mensaje a la mano.</li></ul></div>
+  <h2 class="en">You need</h2>
+  <h2 class="es">Necesitas</h2>
+  <ul class="need en">
+    <li>An <b>Android</b> phone, Android 11 or newer (no iPhone).</li>
+    <li>The <b>Gmail</b> you gave us.</li>
+    <li>Your <b>code</b> from WhatsApp, like <span class="kbd">HL-7KQ3P</span>.</li>
+  </ul>
+  <ul class="need es">
+    <li>Un teléfono <b>Android</b>, Android 11 o más nuevo (no iPhone).</li>
+    <li>El <b>Gmail</b> que nos diste.</li>
+    <li>Tu <b>código</b> del WhatsApp, como <span class="kbd">HL-7KQ3P</span>.</li>
+  </ul>
 </section>
 
 <section>
-  <h2 class="en">Install it, step by step</h2>
-  <h2 class="es">Instálala, paso a paso</h2>
-  <p class="en">About 3 minutes. Do this on the phone you will test with. Use the Gmail account you gave to the person who invited you.</p>
-  <p class="es">Unos 3 minutos. Hazlo en el teléfono con el que vas a probar. Usa la cuenta de Gmail que le diste a quien te invitó.</p>
+  <h2 class="en">Install</h2>
+  <h2 class="es">Instala</h2>
   <ol class="steps">
     <li><div>
-      <span class="en">Open the download folder in the <b>Google Drive</b> app. The app is inside: <span class="kbd">Handloft-Test-0.76.apk</span>.</span><span class="es">Abre la carpeta de descarga en la app <b>Google Drive</b>. Dentro está la app: <span class="kbd">Handloft-Test-0.76.apk</span>.</span>
+      <span class="en">Tap the button. Drive opens.</span><span class="es">Toca el botón. Se abre Drive.</span>
       <p style="margin:.6rem 0 0"><a class="btn alt" href="https://drive.google.com/drive/folders/1vcuF5wAxEddaK6dRq1-e3UdxvcXZt43f" target="_blank" rel="noopener"><span class="en">Open the folder</span><span class="es">Abrir la carpeta</span></a></p>
-      <div class="warn en">If it says you need access, you are signed in with a different Gmail. Switch account at the top right, or tell the person who invited you which address to use.</div>
-      <div class="warn es">Si dice que necesitas acceso, estás con otro Gmail. Cambia de cuenta arriba a la derecha, o dile a quien te invitó qué correo usar.</div>
+      <div class="warn en"><b>"You need access"?</b> Switch to the Gmail you gave us (top right).</div>
+      <div class="warn es"><b>¿Dice "Necesitas acceso"?</b> Cambia al Gmail que nos diste (arriba a la derecha).</div>
+    </li>
+    <li><div>
+      <span class="en">Next to <span class="kbd">Handloft-Test-0.76.apk</span> tap <span class="tap">⋮</span> › <span class="tap">Download</span>.</span>
+      <span class="es">Junto a <span class="kbd">Handloft-Test-0.76.apk</span> toca <span class="tap">⋮</span> › <span class="tap">Descargar</span>.</span>
     </div></li>
     <li><div>
-      <span class="en">Next to <span class="kbd">Handloft-Test-0.76.apk</span> tap the three dots, then <span class="tap">Download</span>.</span>
-      <span class="es">Junto a <span class="kbd">Handloft-Test-0.76.apk</span> toca los tres puntos y luego <span class="tap">Descargar</span>.</span>
+      <span class="en">Open <b>Files</b> › <span class="tap">Downloads</span> › tap the file.</span>
+      <span class="es">Abre <b>Archivos</b> › <span class="tap">Descargas</span> › toca el archivo.</span>
+      <div class="shot"><img src="img/03-files-downloads.jpg" alt="Downloads in Files" loading="lazy" width="540"></div>
     </div></li>
     <li><div>
-      <span class="en">Open <b>Files by Google</b> (or your phone’s Files app), go to <b>Downloads</b>, and tap the file.</span>
-      <span class="es">Abre <b>Files de Google</b> (o la app de Archivos de tu teléfono), ve a <b>Descargas</b> y toca el archivo.</span>
-      <div class="shot"><img src="img/03-files-downloads.jpg" alt="Downloads in Files by Google, with Handloft-Test" loading="lazy" width="540"><p class="cap en">The real screen on a POCO phone. Yours may look a little different.</p><p class="cap es">La pantalla real en un teléfono POCO (en inglés). La tuya puede verse un poco distinta.</p></div>
+      <span class="en"><b>"Not allowed to install unknown apps"?</b> Tap <span class="tap">Settings</span> › turn on <span class="tap">Allow from this source</span> › go back.</span>
+      <span class="es"><b>¿Dice que no puede instalar apps desconocidas?</b> Toca <span class="tap">Configuración</span> › activa <span class="tap">Confiar en esta fuente</span> › regresa.</span>
+      <div class="shot"><img src="img/05-allow-from-this-source-off.jpg" alt="Allow from this source switch" loading="lazy" width="540"></div>
+      <div class="warn en"><b>Red "Danger" page</b> (Xiaomi, POCO, Redmi)? Tick the box › wait › <span class="tap">OK</span>.</div>
+      <div class="warn es"><b>¿Página roja de "Peligro"</b> (Xiaomi, POCO, Redmi)? Marca la casilla › espera › <span class="tap">Aceptar</span>.</div>
     </div></li>
     <li><div>
-      <span class="see en">Warning 1</span><span class="see es">Aviso 1</span>
-      <div class="warn en"><b>“For your security, your phone currently isn’t allowed to install unknown apps from this source.”</b><br>Tap <span class="tap">Settings</span>, turn on <span class="tap">Allow from this source</span>, then go back. This only lets that one app (Drive or Files) open installers. You can turn it off afterwards.</div><div class="warn es"><b>“Por tu seguridad, el teléfono no tiene permitido actualmente instalar apps desconocidas de esta fuente.”</b><br>Toca <span class="tap">Configuración</span> (o Ajustes), activa <span class="tap">Confiar en esta fuente</span> (o Autorizar de esta fuente) y regresa. Solo le permite a esa app (Drive o Archivos) abrir instaladores. Puedes desactivarlo después.</div><div class="shot"><img src="img/04-install-blocked.jpg" alt="Install blocked, then the Allow from this source switch" loading="lazy" width="540"><img src="img/05-allow-from-this-source-off.jpg" alt="Install blocked, then the Allow from this source switch" loading="lazy" width="540"><p class="cap en">The real screen on a POCO phone. Yours may look a little different.</p><p class="cap es">La pantalla real en un teléfono POCO (en inglés). La tuya puede verse un poco distinta.</p></div>
-      <div class="warn en"><b>Xiaomi, POCO and Redmi phones</b> then show a red <b>“Danger”</b> page. That is normal: tick <span class="tap">I’m aware of the possible risks…</span>, wait for the countdown, and tap <span class="tap">OK</span>.</div><div class="warn es"><b>Los teléfonos Xiaomi, POCO y Redmi</b> muestran después una página roja de <b>“Peligro”</b>. Es normal: marca <span class="tap">Soy consciente de los posibles riesgos…</span>, espera la cuenta regresiva y toca <span class="tap">Aceptar</span> (o OK).</div><div class="shot"><img src="img/06-xiaomi-danger-unknown-apps.jpg" alt="Xiaomi Danger page with a countdown on OK" loading="lazy" width="540"><p class="cap en">The real screen on a POCO phone. Yours may look a little different.</p><p class="cap es">La pantalla real en un teléfono POCO (en inglés). La tuya puede verse un poco distinta.</p></div>
-      
+      <span class="en">Tap <span class="tap">Install</span>.</span>
+      <span class="es">Toca <span class="tap">Instalar</span>.</span>
+      <div class="warn en"><b>"App blocked" by Play Protect?</b> Tap <span class="tap">Got it</span>. Play Store › your photo › <span class="tap">Play Protect</span> › ⚙ › turn off <span class="tap">Scan apps</span>. Go back to the file › <span class="tap">Install</span>. Then turn Play Protect back on.</div>
+      <div class="warn es"><b>¿Play Protect dice "App bloqueada"?</b> Toca <span class="tap">Entendido</span>. Play Store › tu foto › <span class="tap">Play Protect</span> › ⚙ › desactiva <span class="tap">Analizar apps</span>. Regresa al archivo › <span class="tap">Instalar</span>. Después vuelve a activar Play Protect.</div>
     </div></li>
     <li><div>
-      <span class="en">Tap <span class="tap">Install</span>.</span><span class="es">Toca <span class="tap">Instalar</span>.</span><div class="shot"><img src="img/07-install-question.jpg" alt="Do you want to install this app?" loading="lazy" width="540"><p class="cap en">The real screen on a POCO phone. Yours may look a little different.</p><p class="cap es">La pantalla real en un teléfono POCO (en inglés). La tuya puede verse un poco distinta.</p></div>
-    </div></li>
-    <li><div>
-      <span class="see en">Warning 2</span><span class="see es">Aviso 2</span>
-      <div class="warn en"><b>Only if Google Play Protect says “App blocked to protect your device”</b> and offers only <span class="tap">Got it</span>. It does this because Handloft asks to control the screen and to send its report, and it is not from the Play Store.<br>1. Tap <span class="tap">Got it</span>.<br>2. Open the <b>Play Store</b>, tap your <b>profile picture</b> (top right), then <span class="tap">Play Protect</span>.<br>3. Tap the <b>gear</b> (top right) and turn off <span class="tap">Scan apps with Play Protect</span>.<br>4. Go back to <b>Files</b>, tap the file again and tap <span class="tap">Install</span>.<br>Step 8 turns Play Protect back on.</div>
-      <div class="warn es"><b>Solo si Google Play Protect dice “Se bloqueó la app para proteger tu dispositivo”</b> y solo ofrece <span class="tap">Entendido</span>. Lo hace porque Handloft pide controlar la pantalla y enviar su reporte, y no viene de la Play Store.<br>1. Toca <span class="tap">Entendido</span>.<br>2. Abre la <b>Play Store</b>, toca tu <b>foto de perfil</b> (arriba a la derecha) y luego <span class="tap">Play Protect</span>.<br>3. Toca el <b>engrane</b> (arriba a la derecha) y desactiva <span class="tap">Analizar las apps con Play Protect</span>.<br>4. Regresa a <b>Archivos</b>, toca otra vez el archivo y toca <span class="tap">Instalar</span>.<br>El paso 8 vuelve a encender Play Protect.</div><div class="shot"><img src="img/08-play-protect-blocked.jpg" alt="Play Protect block, the Play Store menu, and the Scan apps switch" loading="lazy" width="540"><img src="img/09-play-store-menu.jpg" alt="Play Protect block, the Play Store menu, and the Scan apps switch" loading="lazy" width="540"><img src="img/11-play-protect-settings.jpg" alt="Play Protect block, the Play Store menu, and the Scan apps switch" loading="lazy" width="540"><p class="cap en">The real screen on a POCO phone. Yours may look a little different.</p><p class="cap es">La pantalla real en un teléfono POCO (en inglés). La tuya puede verse un poco distinta.</p></div>
-    </div></li>
-    <li><div>
-      <span class="en">Tap <span class="tap">Open</span>. You are in.</span><span class="es">Toca <span class="tap">Abrir</span>. Ya estás dentro.</span>
-      <div class="shot"><img src="img/12-installed.jpg" alt="Installed, with Open" loading="lazy" width="540"><p class="cap en">The real screen on a POCO phone. Yours may look a little different.</p><p class="cap es">La pantalla real en un teléfono POCO (en inglés). La tuya puede verse un poco distinta.</p></div>
-    </div></li>
-    <li><div>
-      <span class="en">If you turned Play Protect off: open the <b>Play Store</b> › profile picture › <span class="tap">Play Protect</span> and tap <span class="tap">Turn on</span>. Handloft stays installed.</span><span class="es">Si apagaste Play Protect: abre la <b>Play Store</b> › foto de perfil › <span class="tap">Play Protect</span> y toca <span class="tap">Activar</span>. Handloft se queda instalada.</span>
-      <div class="shot"><img src="img/10-play-protect.jpg" alt="Play Protect with Turn on" loading="lazy" width="540"><p class="cap en">The real screen on a POCO phone. Yours may look a little different.</p><p class="cap es">La pantalla real en un teléfono POCO (en inglés). La tuya puede verse un poco distinta.</p></div>
+      <span class="en">Tap <span class="tap">Open</span>.</span>
+      <span class="es">Toca <span class="tap">Abrir</span>.</span>
     </div></li>
   </ol>
 </section>
 
 <section>
-  <h2 class="en">Open it</h2>
-  <h2 class="es">Ábrela</h2>
-  <p class="en">That is the install done. From here on, the app guides you. First it asks for your invite code: type the one from the WhatsApp message you received (it looks like <span class="kbd">HL-7KQ3P</span>). If you cannot find it, or it does not work, write to the person who invited you. Then the app explains the permissions it needs and what this test sends, and you choose to agree or not.</p>
-  <div class="warn en"><b>Xiaomi, POCO and Redmi phones:</b> at the pause button step, the phone asks whether Handloft may <b>add shortcuts to the Home screen</b>. <span class="tap">Deny</span> has a short countdown. Tap <span class="tap">Allow</span>: that puts Handloft's star button on your Home screen.</div>
-  <p class="es">Con eso termina la instalación. Desde aquí, la app te guía. Primero te pide tu código de invitación: escribe el del mensaje de WhatsApp que recibiste (se ve así: <span class="kbd">HL-7KQ3P</span>). Si no lo encuentras, o no funciona, escríbele a quien te invitó. Después la app te explica los permisos que necesita y lo que envía esta prueba, y tú decides si aceptas o no.</p>
-  <div class="warn es"><b>Teléfonos Xiaomi, POCO y Redmi:</b> en el paso del botón de pausa, el teléfono pregunta si Handloft puede <b>añadir accesos directos a la pantalla de inicio</b>. <span class="tap">Negar</span> tiene una cuenta regresiva corta. Toca <span class="tap">Permitir</span>: así queda el botón de la estrella de Handloft en tu pantalla de inicio.</div>
-</section>
+  <h2 class="en">Then, in Handloft</h2>
+  <h2 class="es">Después, en Handloft</h2>
+  <ol class="steps">
+    <li><div>
+      <span class="en">Type your <b>code</b> › tap to agree.</span>
+      <span class="es">Escribe tu <b>código</b> › toca para aceptar.</span>
+    </div></li>
+    <li><div>
+      <span class="en">Open all 6 <b>gates</b> the app shows. At gate 2, <b>Accessibility</b>, turn <b>Handloft</b> on. Without this, Handloft can't work.</span>
+      <span class="es">Abre las 6 <b>puertas</b> que te muestra la app. En la puerta 2, <b>Accesibilidad</b>, activa <b>Handloft</b>. Sin esto, Handloft no funciona.</span>
+      <div class="warn en"><b>Xiaomi, POCO, Redmi:</b> asked about Home screen shortcuts? Tap <span class="tap">Allow</span>.</div>
+      <div class="warn es"><b>Xiaomi, POCO, Redmi:</b> ¿pregunta por accesos directos? Toca <span class="tap">Permitir</span>.</div>
+    </div></li>
+    <li><div>
+      <span class="en"><b>Every day:</b> open Handloft › <span class="tap">TODAY'S TEST</span>. It counts for the deal.</span>
+      <span class="es"><b>Cada día:</b> abre Handloft › <span class="tap">PRUEBA DE HOY</span>. Cuenta para el trato.</span>
+    </div></li>
+  </ol>
 
-<section>
-  <h2 class="en">Your thank-you</h2>
-  <h2 class="es">Tu regalo</h2>
-  <p class="en">Use Handloft on <b>at least 15 different days</b>. A whole month is even better. They don't have to be in a row: a day counts when you use Handloft for something real, like a tap, a scroll, Back or Home. And once, send your thoughts from the app: <span class="tap">TELL US WHAT YOU THINK</span> on its Home screen. As a thank-you, <b>the finished Handloft is yours, free.</b></p>
-  <p class="en">Handloft shows your days on its Home screen, under <span class="tap">YOUR THANK-YOU</span>.</p>
-  <p class="es">Usa Handloft <b>al menos 15 días distintos</b>. Un mes completo es todavía mejor. No tienen que ser seguidos: un día cuenta cuando usas Handloft para algo real, como un toque, deslizar, Atrás o Inicio. Y una vez, envía tu opinión desde la app: <span class="tap">DINOS QUÉ OPINAS</span> en su pantalla de inicio. Como regalo, <b>la Handloft terminada es tuya, gratis.</b></p>
-  <p class="es">Handloft te muestra tus días en su pantalla de inicio, en <span class="tap">TU REGALO</span>.</p>
-  <div class="calm en"><b>New versions</b><br>When there is a new Handloft, its Home screen shows <span class="tap">NEW VERSION</span> and what to do. Your code, your signs and your settings stay.</div>
-  <div class="calm es"><b>Versiones nuevas</b><br>Cuando hay una Handloft nueva, su pantalla de inicio muestra <span class="tap">VERSIÓN NUEVA</span> y qué hacer. Tu código, tus gestos y tus ajustes se quedan.</div>
+  <p class="en" style="margin-top:1rem">Stuck? Write on WhatsApp to the person who invited you.</p>
+  <p class="es" style="margin-top:1rem">¿Atorado? Escribe por WhatsApp a quien te invitó.</p>
 </section>
-
 </main>
 
 <footer>
